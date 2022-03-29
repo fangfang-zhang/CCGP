@@ -4,7 +4,7 @@ This README would normally document whatever steps are necessary to get your app
 
 ### What is this repository for? ###
 
-* This is a package for algorithms for automatic rule design in Job Shop Scheduling (JSS) using Genetic Programming (GP). Written by Yi Mei.
+* This is a package for algorithms for automatic rule design in Job Shop Scheduling (JSS) using Genetic Programming (GP). Written by Yi Mei and Fangfang Zhang.
 * The package is based on the Java ECJ package, which is available from https://cs.gmu.edu/~eclab/projects/ecj/.
 * Version 1.0.0
 
@@ -32,13 +32,21 @@ The main project is located in `/src/yimei/jss/`. It contains the following pack
 
 ### Running experiments ###
 
-**Example 1 (Simple GP):**
+**Example 1 (Learn the routing rule and the sequencing rule based on Cooperative Coevolution):**
+
+Yska, Daniel, Yi Mei, and Mengjie Zhang. "Genetic programming hyper-heuristic with cooperative coevolution for dynamic flexible job shop scheduling." In European Conference on Genetic Programming, pp. 306-321. Springer, 2018.
+
+1. Locate the param file `src/yimei/jss/algorithm/coevolutiongp/coevolutiongp-dynamic.params`
+2. Run `src/yimei/jss/gp/GPRun` with argument "*-file [pathofparamsfile]/coevolutiongp-dynamic.params*". You can also set other parameters using "*-p xxx*", in the same way as any ECJ applications.
+3. Finally you will get a result file `job.[x].out.stat` in the project home directory, where [x] is the job id.
+
+**Example 2 (Simple GP):**
 
 1. Locate the param file `src/yimei/jss/algorithm/simplegp/simplegp.params`
 2. Run `src/yimei/jss/gp/GPRun` with argument "*-file [pathofparamsfile]/simplegp.params*". You can also set other parameters using "*-p xxx*", in the same way as any ECJ applications.
 3. Finally you will get a result file `job.[x].out.stat` in the project home directory, where [x] is the job id.
 
-**Example 2 (Calculate feature contributions for feature selection):**
+**Example 3 (Calculate feature contributions for feature selection):**
 
 This work was published on 
 
@@ -48,7 +56,7 @@ Yi Mei, Mengjie Zhang, Su Nguyen, "<a href="http://homepages.ecs.vuw.ac.nz/~yime
 2. Run `src/yimei/ruleanalysis/RuleTestFeatureContribution` using the argument "*dir/ simple-rule 30 dynamic-job-shop missing-0.85-4 1 max-tardiness relative-terminals*".
 3. Finally you will get a csv file in the project home directory, listing the contribution of each feature for the best rule of each run.
 
-**Example 3 (GP using Surrogate model):**
+**Example 4 (GP using Surrogate model):**
 
 The surrogate model is the HalfShop model proposed by Su Nguyen:
 
@@ -60,4 +68,4 @@ Nguyen, S., Zhang, M., Tan, K.C., 2016. <a href="http://ieeexplore.ieee.org/stam
 
 ### Who do I talk to? ###
 
-* Email: yi.mei@ecs.vuw.ac.nz
+* Email: fangfang.zhang@ecs.vuw.ac.nz
