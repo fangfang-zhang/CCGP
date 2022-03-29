@@ -32,7 +32,7 @@ The main project is located in `/src/yimei/jss/`. It contains the following pack
 
 ### Running experiments ###
 
-**Example 1 (Learn the routing rule and the sequencing rule based on Cooperative Coevolution):**
+**Example 1 (Learn the routing rule and the sequencing rule under Cooperative Coevolution framework):**
 
 Yska, Daniel, Yi Mei, and Mengjie Zhang. "Genetic programming hyper-heuristic with cooperative coevolution for dynamic flexible job shop scheduling." In European Conference on Genetic Programming, pp. 306-321. Springer, 2018.
 
