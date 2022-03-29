@@ -1,0 +1,17 @@
+
+Generation: 0
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+ (- NPT NPT)
+Fitness: [703.5533773167783]
+Collaborator 1: 
+Tree 0:
+ (Max (Min (* W NOR) (/ NPT NPT)) (- (Min PT WKR) (/ NOR W)))
+Subpopulation 1:
+Evaluated: true
+ (- (Max NOR OWT) (Min WKR WKR))
+Fitness: [414.813571369706]
+Collaborator 0: 
+Tree 0:
+ (- (* WKR NOR) (Min MWT TIS))

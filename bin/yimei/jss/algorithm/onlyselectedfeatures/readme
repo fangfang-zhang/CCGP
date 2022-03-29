@@ -1,0 +1,8 @@
+
+
+
+only use selected features in stage 2.
+
+mimic top K individuals and randomly initialise 1-K individuals
+
+this is for calculating the fitness distance and phenotype distance

@@ -1,0 +1,8 @@
+
+
+
+only use selected features in stage 2.
+
+this is for calculating the fitness distance and phenotype distance
+
+1.fzhang 2019.6.21 change the max depth of individuals to 7 in stage 2.

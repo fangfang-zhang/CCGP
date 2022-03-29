@@ -1,0 +1,10 @@
+
+adaptive population
+
+================================================================================================================
+
+1. mimic 20% individuals and get the new population --- before we only do this
+
+2. breed new population based on this new population
+
+3. put the parent population and offspring population together--->get the 1024 individuals as a new population

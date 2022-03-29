@@ -1,0 +1,51 @@
+
+Generation: 0
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+ (/ (- (Max (- (+ WIQ PT) (/ PT W)) (- (* OWT NPT) (+ NOR NOR))) (/ (+ (/ WKR NOR) (Min NOR NPT)) (/ (Min TIS NPT) (+ WIQ WIQ)))) (Max (* (+ (/ NPT W) (Max WKR MWT)) (Max (* TIS WIQ) (Min PT WKR))) (/ (Min (Max NIQ TIS) (+ WKR NOR)) (Max (Max OWT WIQ) (+ TIS MWT)))))
+Fitness: [1.7976931348623157E308]
+Collaborator 1: 
+Tree 0:
+ (- (Max NOR OWT) (Min WKR WKR))
+Subpopulation 1:
+Evaluated: true
+ (- (Max NOR OWT) (Min WKR WKR))
+Fitness: [353.3293438882059]
+Collaborator 0: 
+Tree 0:
+ (* (Max (* (/ OWT WKR) NOR) (- (+ OWT PT) (Min NOR OWT))) (- WIQ (+ (+ WKR W) MWT)))
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+ (* (Max (* (/ OWT WKR) NOR) (- (+ OWT PT) (Min NOR OWT))) (- WIQ (+ (+ WKR W) MWT)))
+Fitness: [334.8947097219779]
+Collaborator 1: 
+Tree 0:
+ (Max (/ (/ NOR OWT) (Min OWT TIS)) WKR)
+Subpopulation 1:
+Evaluated: true
+ (- (Max NOR OWT) (Min WKR WKR))
+Fitness: [344.1664853179241]
+Collaborator 0: 
+Tree 0:
+ (* (Max (* (/ OWT WKR) NOR) (- (+ OWT PT) (Min NOR OWT))) (- WIQ (/ (- (+ TIS MWT) (Max OWT PT)) (+ (- PT TIS) (+ TIS PT)))))
+
+Generation: 2
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+ (* (Max (* (/ OWT WKR) NOR) (- (+ OWT PT) (Min NOR OWT))) (- WIQ (+ (+ WKR W) MWT)))
+Fitness: [342.380769048536]
+Collaborator 1: 
+Tree 0:
+ (+ W (Max (* WKR PT) (Min PT W)))
+Subpopulation 1:
+Evaluated: true
+ (Max (/ (/ NOR OWT) (Min OWT TIS)) WKR)
+Fitness: [342.8927461172861]
+Collaborator 0: 
+Tree 0:
+ (* (Max (* (/ OWT WKR) NOR) (- (+ OWT PT) (Min NOR OWT))) (- WIQ (+ (+ (Min WKR (Min TIS MWT)) W) MWT)))
